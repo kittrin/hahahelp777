@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px){
+    .main{
+        height: auto;
+    }
+    .block, .block1, .block2 {
+        height: calc(100vh / 4);
+        width: 80vw;
+    }
+    .textBlock {
+        height: 40%;
+    }
+    .blockPhoto1, .blockPhoto2, .blockPhoto3{
+        height: 60%;
+    }
+}
+@media screen and (min-width: 600px){
+    .main{
+        height: 100vh;
+    }
+    .block, .block1, .block2{
+        width: 400px;
+        height: 537px;
+    }
+    .textBlock {
+        height: 20%;
+    }
+    .blockPhoto1, .blockPhoto2, .blockPhoto3{
+        height: 80%;
+    }
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url("https://sun9-19.userapi.com/impf/USxmLcvo8D7N-PSiNTbLJSJMFNNbHLzFe2WiKQ/d5JypZYjPUw.jpg?size=1920x1080&quality=95&sign=3c41c9acee33a8141e7fd4b8cd1062da&type=album");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.block, .block1, .block2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.block {
+    background: url("https://sun9-62.userapi.com/impf/ytySUYhdyeONn_QTDwm5mMTrVxC7i6D8z6BJXQ/xaam8RWWOlk.jpg?size=422x459&quality=95&sign=5bae86c774b356364d919d9ae78a96b0&type=album");
+    background-size: cover;
+}
+.block1{
+    background: url("https://sun9-46.userapi.com/impf/eTpgcf9f_wv-YjFS8Wc8iHhU4Px464BtEGh7sQ/m_Si970OZBc.jpg?size=421x458&quality=95&sign=dbcddce5f3dbee4735d30fc43a544d01&type=album");
+    background-size: cover;
+}
+.block2{
+    background: url("https://sun9-9.userapi.com/impf/QjOtvAeO2eMvhJ6iEbVdHSVFtvcHSruE652BIA/QsGm2b4WFxA.jpg?size=422x459&quality=95&sign=6285d602209b3cb25dc3179b6b072307&type=album");
+    background-size: cover;
+}
+.blockPhoto1, .blockPhoto2, .blockPhoto3{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.textBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.textBlock:hover{
+    background-color: #d2d2d2;
+}

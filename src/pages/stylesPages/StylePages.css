@@ -1,0 +1,108 @@
+@media screen and (max-width: 700px){
+    .titleMain{
+        font-size: 20vw;
+    }
+    .bodyMain {
+        font-size: 5vw;
+    }
+    .photojk1{
+        width: 100%;
+        height: 50%;
+    }
+    .photojk2{
+        width: 100%;
+        height: 50%;
+    }
+    .titlejk{
+        font-size: 6vw;
+    }
+    .textjk1 ul li{
+        font-size: 4vw;
+    }
+    .textjk1{
+        font-size: 4vw;
+    }
+    .jk1{
+        background-color: rgba(75, 77, 80, 0);
+        color: #d9d9d9;
+    }
+}
+@media screen and (min-width: 700px) {
+    .titleMain {
+        font-size: 7vw;
+    }
+    .bodyMain {
+        font-size: 2vw;
+    }
+    .photojk1{
+        height: 90%;
+        width:40%;
+    }
+    .photojk2{
+        height: 90%;
+        width:40%;
+    }
+    .titlejk{
+        font-size: 3vw;
+    }
+    .textjk1 ul li {
+        font-size: 2vw;
+    }
+    .textjk1 {
+        font-size: 2vw;
+    }
+    .jk1{
+        background-color: #ffffff;
+        color: #1f1f1f;
+    }
+}
+.bodyMain{
+    font-family: Montserrat, sans-serif;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 96px;
+    letter-spacing: 0.165em;
+}
+
+.jk1 {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.jk1Body{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photojk1{
+    background: url("https://sun9-42.userapi.com/impf/KLWLu4RwogqJEphUuz2fA5-3Lpvm-C1TyZ3O-g/J44h29wAmgk.jpg?size=473x718&quality=96&sign=da052125aaa155ad7bae4f7f680d0820&type=album");
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.titlejk{
+    font-weight: 500;
+}
+
+
+.photojk2{
+    background: url("https://sun9-1.userapi.com/impf/CWtaU7ePs0uhun1KFpeaYsgt4K-HH-rN1AlrVA/691-775-uUg.jpg?size=473x718&quality=95&sign=a8733fa70c4f607a0cd0c2af5fb35dff&type=album");
+    background-size: cover;
+    border-radius: 25px;
+}
+.ant-btn-primary {
+    background: #FB3640 !important;
+    border-color: #FB3640 !important ;
+    padding: 20px 10px 20px 10px;
+}

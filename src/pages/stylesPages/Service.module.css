@@ -1,0 +1,118 @@
+
+@media screen and (max-width: 700px) {
+    .title1 {
+        font-size: 10vw;
+    }
+
+    .title2 {
+        font-size: 4vw;
+    }
+
+    .house {
+        width: 30%;
+        aspect-ratio: 1/1;
+    }
+
+    .textHouse{
+        font-size: 7px;
+        width: 20%;
+    }
+
+    .search{
+
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .title1 {
+        font-size: 4vw;
+
+    }
+
+    .title2 {
+        font-size: 2vw;
+    }
+
+    .house {
+        width: 265px;
+        height: 362px;
+    }
+    .textHouse{
+        font-size: 13px;
+        width: 20%;
+    }
+    .search{
+        background-color: #FFFFFF;
+    }
+}
+
+.main {
+    background: url("https://sun9-19.userapi.com/impf/USxmLcvo8D7N-PSiNTbLJSJMFNNbHLzFe2WiKQ/d5JypZYjPUw.jpg?size=1920x1080&quality=95&sign=3c41c9acee33a8141e7fd4b8cd1062da&type=album");
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2 {
+    lineHeight: '96px',
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 10px;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.body {
+    width: 80%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: auto;
+    background-size: cover;
+    background: #E9E9E9;
+    border-radius: 13px;
+    justify-content: center;
+}
+
+.house {
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 7px 7px 14px 13px;
+    margin: 20px;
+}
+
+.photoHouse {
+    width: 100%;
+    height: 80%;
+}
+
+.textHouse {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 0px 0px 11px 11px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+
+}

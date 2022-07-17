@@ -1,0 +1,56 @@
+@media screen and (max-width: 700px){
+    .titleMain{
+        font-size: 7vw;
+    }
+    .cameras{
+        width: 90%;
+    }
+    .camera{
+        width: 40vw;
+        aspect-ratio: 16/9;
+    }
+}
+@media screen and (min-width: 700px){
+    .titleMain{
+        font-size: 3vw;
+    }
+    .cameras{
+        width: 80%;
+    }
+    .camera{
+        width: calc((70vw + 5px) / 3);
+        aspect-ratio: 16/9;
+    }
+}
+.main {
+    background: url("https://sun9-19.userapi.com/impf/USxmLcvo8D7N-PSiNTbLJSJMFNNbHLzFe2WiKQ/d5JypZYjPUw.jpg?size=1920x1080&quality=95&sign=3c41c9acee33a8141e7fd4b8cd1062da&type=album");
+    background-size: cover;
+    height: calc(100vh - 46px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titleMain{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.cameras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.camera{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    background: #D9D9D9;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
